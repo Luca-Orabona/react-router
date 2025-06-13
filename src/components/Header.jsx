@@ -13,7 +13,10 @@ const Header = () => {
                         <NavLink to="/chiSiamo">Chi siamo</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/listaPost">Lista post</NavLink>
+                        <NavLink to="/listaPost" end>Lista post</NavLink>
+                    </li>
+                      <li>
+                        <NavLink to="/listaPost/create">Crea post</NavLink>
                     </li>
                 </ul>
 
